@@ -1,0 +1,36 @@
+#header-top{
+    color: #fff;
+}
+#header-top{
+    background-color: #414b3b;
+}
+#address, #phone, #email{
+    align-self: center;
+}
+#address i, #phone i, #email i{
+    font-size: 35px;
+}
+#header-menu{
+    background-color:#cdb17d;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+.btn-primary{
+    background-color: #cdb17d;
+    border-color: #cdb17d;
+}
+.btn-primary:hover{
+    background-color: #ab8742;
+    border-color: #ab8742;
+}
+.dropdown:hover>.dropdown-menu{
+    background-color: #cdb17d;
+    border-color: #cdb17d;
+}
+#header-menu .btn-primary{
+    font-size: 2rem;
+}

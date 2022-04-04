@@ -1,0 +1,6 @@
+pruebas_index:
+  path: /pruebas/{name}/{page}
+  defaults: { _controller: AppBundle:Pruebas:index, page:1 }
+  methods: [GET]
+  requirements:
+    page: \d+
